@@ -11,7 +11,7 @@ The app saves each submission in a **SQLite** database and shows a **unique resu
 ## Requirements
 - PHP 8.2+
 - Composer
-- SQLite (enabled in PHP)
+- MySQL
 
 How to Run the Oil Change Checker Project
 
@@ -29,7 +29,7 @@ composer install
 
 Open XAMPP
 Start Apache and MySQL
-Create database: oil_change_checker
+Create database: oil_checks
 (http://localhost/phpmyadmin)
 
 5️⃣ Configure Database
@@ -42,7 +42,7 @@ DB_HOST=127.0.0.1
 
 DB_PORT=3306
 
-DB_DATABASE=oil_change_checker
+DB_DATABASE=oil_checks
 
 DB_USERNAME=root
 
